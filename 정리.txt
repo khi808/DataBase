@@ -6,11 +6,8 @@ MySQL
 - 시스템 변수 Path 들어가서 맨뒤커서에 ; %MySql% 수정
 - cmd 창에서 mysql -u //id// -p 입력
 
-
-primary key = not null , unique 속성 포함
-#테이블에 데이터 입력하기
-
-insert into member(column) values(value); // 칼럼 
+MySQL Workbench -
+Preference에서 safe update를 해제 해야지 데이터베이스 데이터 수정가능
 
 ## 데이터 정의어(DLL) - Data Definition Language
 
@@ -20,3 +17,14 @@ insert into member(column) values(value); // 칼럼
 ##데이터 처리어 (DML) - Data Manipulation Language
 
 # insert, update, delete, select
+##데이터 제어문(DCL) -Data Controll Language
+#grant, revoke
+#테이블 만들기
+create table //테이블명//;
+
+primary key = not null , unique 속성 포함
+#테이블에 데이터 입력하기
+
+insert into member(column) values(value); // 칼럼 
+
+
