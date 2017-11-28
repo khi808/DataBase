@@ -9,6 +9,13 @@ MySQL
 MySQL Workbench -
 Preference에서 safe update를 해제 해야지 데이터베이스 데이터 수정가능
 
+데이터베이스 생성 순서
+설계 -> ERD (Entity Relationship Diagram)[독립적인 객체들의 관계를 나타낸 그림] -> 구현
+
+1정규화: 중복된 속성을 분리
+2정규화: 분리된 데이터의 중복제거
+3정규화: 분리된 데이터들의 종속성을 제거
+
 ## 데이터 정의어(DLL) - Data Definition Language
 
 # create, alter, drop
@@ -25,5 +32,9 @@ primary key = not null , unique 속성 포함
 #테이블에 데이터 입력하기
 
 insert into member(column) values(value); // 칼럼 
+
+Relationship
+테이블A의 key속성의 no가 테이블B의 다른속성의 참조가 되면 비식별관계
+테이블A의 key속성의 no가 테이블B의 key속성의 no에 참조가 된다면 식별관계
 
 
