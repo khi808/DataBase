@@ -1,0 +1,8 @@
+https://dev.mysql.com/downloads/connector/j/ 다운로드 사이트
+
+C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext -> mysql-connector-java-5.1.44-bin.jar복사
+( jdk/jre/lib/ext에 connector.jar 복사 )
+
+eclipse -> open Properties -> Database Development선택
+
+Database Connections -> New -> 데이터 베이스 연결
